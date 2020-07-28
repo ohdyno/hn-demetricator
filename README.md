@@ -1,11 +1,10 @@
-
 ![icon](./icon.png)
 
 # Hacker News Demetricator
 
 **[Download on the Chrome Web Store](https://chrome.google.com/webstore/detail/hacker-news-demetricator/dihffdmjkpohpejghlapggoiieifikeo)**
 
-Remove upvote and comment counts from Hacker News. 
+Remove upvote and comment counts from Hacker News.
 
 Judge submissions by their merit, not by their upvote count.
 
@@ -14,12 +13,23 @@ Oftentimes, the amount of upvotes or comments a post has influences our opinion 
 This extension is compatible with Hacker News Enhancement Suite.
 
 ## Screenshots:
+
 ### Vanilla HN:
-![Vanilla HN](./vanilla.png)
+
+![Vanilla HN](./screenshots/vanilla.png)
 
 ### Hacker News Enhancement Suite:
-![Hacker News Enhancement Sutie](./hnes.png)
+
+![Hacker News Enhancement Sutie](./screenshots/hnes.png)
 
 ## Contributing
 
 Feel free to make a pull request with any additional features or support for more browsers!
+
+### Packaging
+
+- Install [web-ext]
+- Run `web-ext build --ignore-files screenshots/`
+- Verify the artifact has the expected files `zipinfo web-ext-artfacts/<filename>.zip`
+
+[web-ext]: https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/
