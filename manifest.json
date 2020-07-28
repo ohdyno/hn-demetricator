@@ -15,6 +15,5 @@
       "js": ["hacker_news.js"]
     }
   ],
-  "web_accessible_resources": ["data/mapping.json"],
   "manifest_version": 2
 }
