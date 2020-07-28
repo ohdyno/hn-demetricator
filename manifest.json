@@ -1,6 +1,6 @@
 {
   "name": "Hacker News Demetricator",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Remove upvote and comment counts from Hacker News.",
   "icons": {
     "128": "icon.png"

@@ -29,7 +29,7 @@ Feel free to make a pull request with any additional features or support for mor
 ### Packaging
 
 - Install [web-ext]
-- Run `web-ext build --ignore-files screenshots/`
-- Verify the artifact has the expected files `zipinfo web-ext-artfacts/<filename>.zip`
+- Run `web-ext build`
+- Verify the artifact has the expected files `zipinfo ./web-ext-artfacts/<name-version>.zip`
 
 [web-ext]: https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/
